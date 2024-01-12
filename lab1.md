@@ -6,7 +6,8 @@
 [user@sahara ~]$ cd
 [user@sahara ~]$
 ```
-Working Directory: `/home`
+Working Directory: `/home` 
+
 Explanation: No argument was given so the working directory was not changed. There was no error.
 
 2. Directory as argument
