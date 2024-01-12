@@ -1,6 +1,6 @@
 # Lab 1
 
-**`cd` Command**
+## **`cd` Command**
 1. No arguments
 ```
 [user@sahara ~]$ cd
@@ -25,7 +25,7 @@ bash: cd: Hello.java: Not a directory
 Working Directory: `/home/lecture1`
 Explanation: The `cd` command requires a directory as an argument but since `Hello.java` is a file (not a directory) an error message was output.
 
-**`ls` Command**
+## **`ls` Command**
 1. No arguments
 ```
 [user@sahara ~/lecture1]$ ls
@@ -50,7 +50,7 @@ Hello.java
 Working Directory: `/home/lecture1`
 Explanation: This time, a file was given as the argument. The `ls` command printed the given file name. There was not error message.
 
-**`cat` Command**
+## **`cat` Command**
 1. No arguments
 ```
 [user@sahara ~/lecture1]$ cat
