@@ -3,14 +3,23 @@
 ## **`cd` Command**
 **No arguments**
 ```
-[user@sahara ~]$ cd
-[user@sahara ~]$
+[user@sahara ~/lecture1]$ cd
+[user@sahara ~]$ 
 ```
 
-Working Directory: `/home` 
+Working Directory: `/home/lecture1` 
 
-Explanation: No argument was given so the working directory was not changed. There was no error.
+Explanation: No argument was given and the working directory changed from `/home/lecture1` to `/home`. There was no error.
 
+Another Example:
+```
+[user@sahara ~/lecture1/messages]$ cd
+[user@sahara ~]$ 
+```
+
+Working Directory: `/home/lecture1/messages`
+
+Explanation: No argument was given and the working directory changed from `/home/lecture1/messages` to `/home`. 
 
 **Directory as argument**
 ```
@@ -72,12 +81,17 @@ Explanation: This time, a file was given as the argument. The `ls` command print
 **No arguments**
 ```
 [user@sahara ~/lecture1]$ cat
+pwd
+pwd
+ls
+ls
 ^C
+[user@sahara ~/lecture1]$ 
 ```
 
 Working Directory: `/home/lecture1`
 
-Explanation: When no argument is passed to the `cat` command, it doesn't run anything and the terminal keeps going on and on. This was an error.
+Explanation: When no argument is passed to the `cat` command, it doesn't run anything and the terminal keeps going on and on. Whenever I input any other commands, the command is just re-printed to the console. This is not an error because the `cat` command does what it is supposed to do when no arguments are given.
 
 
 **Directory as argument**
