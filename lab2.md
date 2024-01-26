@@ -1,6 +1,7 @@
 # **Lab Report 2**
 
 ## **Part 1**
+
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -43,7 +44,16 @@ class ChatServer {
 }
 ```
 
+**Screenshot 1**
 
+![Image](/lab_report_2_ss1.png)
+
+1. Which methods in your code are called?
+   The `main()` and `handleRequest()` methods are called.
+
+2. What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+   For `main()`, it takes in the port number. For `handleRequest()`, it takes in the URL. Under `handleRequest()`, there is a field to store the full string of all the messages, and fields to store strings for the user and message.
+How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 
 ## **Part 2**
 
