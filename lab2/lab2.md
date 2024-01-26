@@ -86,7 +86,7 @@ Absolute Path: `C:/Aslan Chan/Users/.ssh/id_rsa`
 
 **Public Key**
 
-<img src="/lab_report2_ss4.png" width="200" height="100">
+<img src="/lab_report2_ss4.png" width="800" height="400">
 
 Absolute Path: `asc010@ieng6.ucsd.edu:/home/linux/ieng6/oce/1d/asc010/.ssh`
 
