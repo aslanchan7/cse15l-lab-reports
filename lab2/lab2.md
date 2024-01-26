@@ -88,9 +88,7 @@ Absolute Path: `C:/Aslan Chan/Users/.ssh/id_rsa`
 
 ![Image](/lab_report_2_ss4.png)
 
-Absolute Path: `asc010@ieng6.ucsd.edu:~/.ssh/authorized_keys/id_rsa.pub`
-
-Note: I was unable to access the `/authorized_keys` directory, I believe due to the fact that I do not have adminstrator access. However the file is definitely in that folder because I am able to log in to the server without entering my password.
+Absolute Path: `asc010@ieng6.ucsd.edu:/home/linux/ieng6/oce/1d/asc010/.ssh`
 
 **Logging in Without Entering Password**
 
