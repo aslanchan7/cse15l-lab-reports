@@ -131,7 +131,6 @@ $ find ./technical/biomed/ -iname "*x*.txt"
 ./technical/biomed/1471-213X-1-10.txt
 ./technical/biomed/1471-213X-1-11.txt
 ./technical/biomed/1471-213X-1-12.txt
-./technical/biomed/1471-213X-1-13.txt
 ```
 
 Description: The `-iname` option works exactly like `-name` except the name given is not case sensitive. This can be helpful to a user for finding a file whose name they do not know exactly.
@@ -150,3 +149,4 @@ $ find ./technical -empty
 ```
 
 Description: The `-empty` option allows a user to find directories or files that are empty. This may be helpful to a user for when they want to clean up their project files and remove any ununnecessary files/directories.
+
