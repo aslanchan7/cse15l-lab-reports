@@ -84,7 +84,7 @@ $ find ./technical -name "1468*"
 ./technical/biomed/1468-6708-3-7.txt
 ```
 
-Description: The `-name` allows to find files where the base of the file name matches the pattern that I provide. This may be useful if I am trying to find a file that starts in a certain pattern/way.
+Description: The `-name` option allows me to find files where the base of the file name matches the pattern that I provide. This may be useful if I am trying to find a file that starts in a certain pattern/way.
 
 **`-type` Examples**
 
@@ -94,20 +94,35 @@ $ find ./technical -type f
 ./technical/911report/chapter-1.txt
 ./technical/911report/chapter-10.txt
 ./technical/911report/chapter-11.txt
-./technical/911report/chapter-12.txt
-./technical/911report/chapter-13.1.txt
-./technical/911report/chapter-13.2.txt
-./technical/911report/chapter-13.3.txt
-./technical/911report/chapter-13.4.txt
-./technical/911report/chapter-13.5.txt
-./technical/911report/chapter-2.txt
-./technical/911report/chapter-3.txt
-./technical/911report/chapter-5.txt
-./technical/911report/chapter-6.txt
-./technical/911report/chapter-7.txt
-./technical/911report/chapter-8.txt
-./technical/911report/chapter-9.txt
-./technical/911report/preface.txt
-./technical/biomed/1468-6708-3-1.txt
-./technical/biomed/1468-6708-3-10.txt
+...
+./technical/plos/pmed.0020275.txt
+./technical/plos/pmed.0020278.txt
+./technical/plos/pmed.0020281.txt
+```
+
+```
+Aslan Chan@LAPTOP-HR2BVR3V MINGW64 ~/Classes/CSE 15L/Lab 5/docsearch (main)
+$ find ./technical -type d
+./technical
+./technical/911report
+...
+./technical/government/Media
+./technical/government/Post_Rate_Comm
+./technical/plos
+```
+
+Description: The `-type` option finds files/directories that match the given type (eg: files, directories, characters). This is super helpful for finding all files of a certain type in a large directory.
+
+**`-iname` Examples**
+
+```
+Aslan Chan@LAPTOP-HR2BVR3V MINGW64 ~/Classes/CSE 15L/Lab 5/docsearch (main)
+$ find ./technical/government/ -iname "a*"
+./technical/government/About_LSC
+./technical/government/Alcohol_Problems
+./technical/government/Env_Prot_Agen/atx1-6.txt
+...
+```
+
+```
 ```
