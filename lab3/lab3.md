@@ -53,3 +53,5 @@ static int[] reversed(int[] arr) {
   return newArray;
 }
 ```
+
+Description: The `reversed()` method before was assigning the elements from `newArray` to `arr`. Since `newArray` is an array with null elements, the `arr` stores null and hence does not reverse the array contents and causes a bug. The new `reversed()` method assigns `newArray` from `arr` in the opposite order and works as intended.
