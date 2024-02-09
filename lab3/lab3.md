@@ -65,7 +65,7 @@ Description: The `reversed()` method before was assigning the elements from `new
 1. `-name`
 2. `-type`
 3. `-iname`
-4. `-regex`
+4. `-empty`
 
 **`-name` Examples**
 
@@ -84,7 +84,7 @@ $ find ./technical -name "1468*"
 ./technical/biomed/1468-6708-3-7.txt
 ```
 
-Description: The `-name` option allows me to find files where the base of the file name matches the pattern that I provide. This may be useful if I am trying to find a file that starts in a certain pattern/way.
+Description: The `-name` option allows a user to find files where the base of the file name matches the pattern that they provide. This may be useful if a user is trying to find a file that starts in a certain pattern/way.
 
 **`-type` Examples**
 
@@ -125,4 +125,28 @@ $ find ./technical/government/ -iname "a*"
 ```
 
 ```
+Aslan Chan@LAPTOP-HR2BVR3V MINGW64 ~/Classes/CSE 15L/Lab 5/docsearch (main)
+$ find ./technical/biomed/ -iname "*x*.txt"
+./technical/biomed/1471-213X-1-1.txt
+./technical/biomed/1471-213X-1-10.txt
+./technical/biomed/1471-213X-1-11.txt
+./technical/biomed/1471-213X-1-12.txt
+./technical/biomed/1471-213X-1-13.txt
 ```
+
+Description: The `-iname` option works exactly like `-name` except the name given is not case sensitive. This can be helpful to a user for finding a file whose name they do not know exactly.
+
+**`-empty` Examples**
+
+```
+Aslan Chan@LAPTOP-HR2BVR3V MINGW64 ~/Classes/CSE 15L/Lab 5/docsearch (main)
+$ find ./technical -empty
+```
+
+```
+Aslan Chan@LAPTOP-HR2BVR3V MINGW64 ~/Classes/CSE 15L/Lab 5/docsearch (main)
+$ find ./technical -empty
+./technical/empty_directory
+```
+
+Description: The `-empty` option allows a user to find directories or files that are empty. This may be helpful to a user for when they want to clean up their project files and remove any ununnecessary files/directories.
