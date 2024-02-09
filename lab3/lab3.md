@@ -62,9 +62,52 @@ Description: The `reversed()` method before was assigning the elements from `new
 
 **Options**
 
-1. -name
-2. -type
-3. -iname
-4. -regex
+1. `-name`
+2. `-type`
+3. `-iname`
+4. `-regex`
 
+**`-name` Examples**
 
+```
+Aslan Chan@LAPTOP-HR2BVR3V MINGW64 ~/Classes/CSE 15L/Lab 5/docsearch (main)
+$ find ./technical -name "911*"
+./technical/911report
+```
+
+```
+$ find ./technical -name "1468*"
+./technical/biomed/1468-6708-3-1.txt
+./technical/biomed/1468-6708-3-10.txt
+./technical/biomed/1468-6708-3-3.txt
+./technical/biomed/1468-6708-3-4.txt
+./technical/biomed/1468-6708-3-7.txt
+```
+
+Description: The `-name` allows to find files where the base of the file name matches the pattern that I provide. This may be useful if I am trying to find a file that starts in a certain pattern/way.
+
+**`-type` Examples**
+
+```
+Aslan Chan@LAPTOP-HR2BVR3V MINGW64 ~/Classes/CSE 15L/Lab 5/docsearch (main)
+$ find ./technical -type f
+./technical/911report/chapter-1.txt
+./technical/911report/chapter-10.txt
+./technical/911report/chapter-11.txt
+./technical/911report/chapter-12.txt
+./technical/911report/chapter-13.1.txt
+./technical/911report/chapter-13.2.txt
+./technical/911report/chapter-13.3.txt
+./technical/911report/chapter-13.4.txt
+./technical/911report/chapter-13.5.txt
+./technical/911report/chapter-2.txt
+./technical/911report/chapter-3.txt
+./technical/911report/chapter-5.txt
+./technical/911report/chapter-6.txt
+./technical/911report/chapter-7.txt
+./technical/911report/chapter-8.txt
+./technical/911report/chapter-9.txt
+./technical/911report/preface.txt
+./technical/biomed/1468-6708-3-1.txt
+./technical/biomed/1468-6708-3-10.txt
+```
