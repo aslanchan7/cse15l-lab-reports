@@ -1,4 +1,4 @@
-![image](https://github.com/aslanchan7/cse15l-lab-reports/assets/124756060/a85a239a-56e9-4012-a86e-c91c5a921602)# Lab Report 3
+# Lab Report 3
 
 ## Part 1 - Bugs
 
