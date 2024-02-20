@@ -26,7 +26,7 @@ public void testReversed() {
 
 ![Image](lab-report-3-ss5.png)
 
-Description: As you can see, there seems to be a failure for a test called testReversed2() which is the failure-inducing test shown above.
+Description: As you can see, there seems to be a failure for a test called `testReversed2()` which is the failure-inducing test shown above.
 
 **Before & After Bug Fix**
 
