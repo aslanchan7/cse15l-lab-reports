@@ -6,7 +6,7 @@
 
 ```
 @Test
-public void testReversed() {
+public void testReversed2() {
   int[] input1 = { 1, 2, 3 };
   assertArrayEquals(new int[] { 3, 2, 1 }, ArrayExamples.reversed(input1));
 }
@@ -25,6 +25,8 @@ public void testReversed() {
 **Screenshots of the Symptoms**
 
 ![Image](lab-report-3-ss5.png)
+
+Description: As you can see, there seems to be a failure for a test called testReversed2() which is the failure-inducing test shown above.
 
 **Before & After Bug Fix**
 
