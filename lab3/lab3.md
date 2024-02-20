@@ -24,9 +24,7 @@ public void testReversed() {
 
 **Screenshots of the Symptoms**
 
-![Image](lab-report-3-ss1.png)
-
-![Image](lab-report-3-ss2.png)
+![Image](lab-report-3-ss5.png)
 
 **Before & After Bug Fix**
 
