@@ -3,8 +3,11 @@
 **Student's Original Post**
 
 ![Image](lab-report-5-ss1.png)
+
 ![Image](lab-report-5-ss2.png)
+
 ![Image](lab-report-5-ss3.png)
+
 
 I am having trouble with my bash script but I'm not exactly sure what it is. At first, it looks like the program is working but actually `output.txt` is empty even though I am redirecting my output from the Java program to `output.txt`. I used 7 random words (Hello World This Is Some Test Input) as my input when the bug occurred but other words that I have used also do not work. I'm very lost, please help 
 
